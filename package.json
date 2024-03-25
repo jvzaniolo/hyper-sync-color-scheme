@@ -1,0 +1,22 @@
+{
+  "name": "hyper-sync-color-scheme",
+  "version": "1.0.0",
+  "description": "A Hyper plugin to sync your color scheme with your system's appearance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvzaniolo/hyper-sync-color-scheme.git"
+  },
+  "keywords": [
+    "hyper-plugin"
+  ],
+  "author": "jvzaniolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvzaniolo/hyper-sync-color-scheme/issues"
+  },
+  "homepage": "https://github.com/jvzaniolo/hyper-sync-color-scheme#readme"
+}
