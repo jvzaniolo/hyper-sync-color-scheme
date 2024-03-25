@@ -21,7 +21,8 @@ config: {
   colorScheme: {
     dark: 'One Dark',
     light: 'One Light'
-  }
+  },
+  profiles: []
 }
 ```
 
@@ -29,6 +30,10 @@ The `colorScheme` object should contain two keys: `dark` and `light`. The values
 
 ```js
 config: {
+  colorScheme: {
+    dark: 'One Dark',
+    light: 'One Light'
+  },
   profiles: [
     {
       name: "One Dark",
