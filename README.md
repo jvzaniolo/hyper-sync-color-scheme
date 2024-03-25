@@ -7,8 +7,10 @@ A Hyper plugin to sync your color scheme with your system's appearance.
 Add `hyper-sync-color-scheme` to your `plugins` list in `~/.hyper.js`.
 
 ```js
-plugins: ["hyper-sync-color-scheme"];
+plugins: ["hyper-sync-color-scheme"]
 ```
+
+Then, hard refresh the terminal whenever the appearance changes to apply the correct theme.
 
 ## Configuration
 
