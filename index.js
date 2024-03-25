@@ -4,10 +4,12 @@ exports.decorateConfig = (config) => {
   config = config || {};
 
   var prefersColorScheme = nativeTheme.shouldUseDarkColors ? "dark" : "light";
-
-  var profile = config.profiles.filter(
-    (p) => p.name === config.colorScheme[prefersColorScheme]
-  )[0];
-
-  return profile ? Object.assign({}, config, profile.config) : config;
+  var profileName = config.colorScheme
+    ? config.colorScheme[prefersColorScheme]
+    : null;
+  if (!profileName) return config;
+  var profile = config.profiles.filter((p) => p.name === profileName);
+  return profile.length > 0
+    ? Object.assign({}, config, profile[0].config)
+    : config;
 };

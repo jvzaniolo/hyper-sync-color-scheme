@@ -1,6 +1,6 @@
 {
   "name": "hyper-sync-color-scheme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hyper plugin to sync your color scheme with your system's appearance.",
   "main": "index.js",
   "scripts": {
