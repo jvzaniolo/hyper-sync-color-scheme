@@ -4,13 +4,13 @@ A Hyper plugin to sync your color scheme with your system's appearance.
 
 ## Installation
 
-Add `hyper-sync-color-scheme` to your `plugins` list in `~/.hyper.js`.
+Install the plugin with the following command:
 
-```js
-plugins: ["hyper-sync-color-scheme"]
+```bash
+hyper i hyper-sync-color-scheme
 ```
 
-Then, hard refresh the terminal whenever the appearance changes to apply the correct theme.
+Then, whenever you change your system's appearance, hard reload Hyper to apply the new color scheme.
 
 ## Configuration
 
