@@ -37,14 +37,18 @@ config: {
   profiles: [
     {
       name: "One Dark",
-      colors: {
-        // ...
+      config: {
+        colors: {
+          // ...
+        },
       },
     },
     {
       name: "One Light",
-      colors: {
-        // ...
+      config: {
+        colors: {
+          // ...
+        },
       },
     },
   ];
